@@ -26,6 +26,7 @@ body {
   display: flex;
   align-items: center;
   column-gap: .75rem;
+  max-width: 80vw;
 }
 .input__lock, .input__icon {
   font-size: 1.25rem;
@@ -37,6 +38,10 @@ body {
 .input__icon {
   color: var(--first-color);
   cursor: pointer;
+}
+#input-icon {
+  position: absolute;
+  right: 1.3rem;
 }
 .input__password {
   background: transparent;
